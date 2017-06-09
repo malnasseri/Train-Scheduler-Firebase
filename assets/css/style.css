@@ -1,0 +1,26 @@
+body {
+	background-color: #b29f94;
+	font-family: 'Francois One', sans-serif;
+}
+
+
+
+.jumbotron {
+	margin-top: 15px;
+	text-align: center;
+	background-color: #bdc3c7;
+	
+	background-image: url("../images/headerBackground.jpg");
+	background-size: contain;
+	background-size:cover cover;                      /* <------ */
+    background-repeat: no-repeat;
+    border:solid 2px;
+}
+	.panel{
+		
+		
+	}
+
+.jumbotron h1 {
+	margin-left: 300px;
+}
