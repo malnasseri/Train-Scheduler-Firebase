@@ -12,7 +12,7 @@ body {
 	
 	background-image: url("../images/headerBackground.jpg");
 	background-size: contain;
-	background-size:cover cover;                      /* <------ */
+	background-size:cover cover;                     
     background-repeat: no-repeat;
     border:solid 2px;
 }
@@ -24,3 +24,25 @@ body {
 .jumbotron h1 {
 	margin-left: 300px;
 }
+@media screen and (max-width: 980px) {
+	.jumbotron h1{
+		font-size: 45px;
+	}
+	}
+
+@media screen and (max-width: 768px) {
+	body{
+		background-color: black;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
