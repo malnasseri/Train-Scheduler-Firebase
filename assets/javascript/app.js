@@ -122,21 +122,7 @@ var database = firebase.database();
 	  // Handle the errors if any
 	  }, function(errorObject) {
 	    console.log("Errors handled: " + errorObject.code);
-	  });
-
-	  //Gets the train ids in an Array
-	  database.ref().once('value', function(dataSnapshot){ 
-	    var trainIndex = 0;
-
-      dataSnapshot.forEach(
-          function(childSnapshot) {
-              trainIDs[trainIndex++] = childSnapshot.key();
-          }
-      );
-  });
-
-  console.log(trainIDs);
-
+	  })
 
 
   
