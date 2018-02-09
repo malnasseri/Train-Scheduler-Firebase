@@ -14,11 +14,14 @@ body {
 	background-size: contain;
 	background-size:cover cover;                     
     background-repeat: no-repeat;
-    border:solid 2px;
+    
 }
 	.panel{
 		
 		
+	}
+	button {
+		width: 100%
 	}
 
 .jumbotron h1 {
