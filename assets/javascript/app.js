@@ -11,7 +11,18 @@
   
   var database = firebase.database();
 
+function t() {
+    document.getElementById('time').innerHTML = moment().format('dddd hh:mm:ss a');
+}
 
+t();
+window.setInterval(t, 1000);
+function d() {
+    document.getElementById('date').innerHTML = moment().format('MMMM Do YYYY');
+}
+
+d();
+window.setInterval(d, 1000);
 
 
 	// Variables
@@ -34,6 +45,7 @@
   	update();
   	setInterval(update, 1000);
 	
+
 	// Capturing Button Click
 	$("#submitBtn").on("click", function() {
       
