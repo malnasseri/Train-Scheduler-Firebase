@@ -71,10 +71,43 @@ i {
 
 	}
 
+@media screen and (min-width: 768px) {
+	.jumbotron h1{
+		
+		font-size: 40px;
+		margin-bottom: -20px;
+	}
+	img {
+		margin-top: -40px;
+		margin-left: -50px;
+		width: 700px;
+		height: 500px;
+
+	}
+	.panel {
+		font-size: 100%;
+	}
+
+	}
 
 
+@media screen and (min-width: 1024px) {
+.jumbotron h1{
+		
+		font-size: 50px;
+		margin-bottom: 0px;
+		margin-top: 80px;
+		margin-right: -70px;
+	}
+	img {
+	margin-bottom: -40px;
+		width: 430px;
+		height: 300px;
 
+	}
+	
 
+	}
 
 
 
