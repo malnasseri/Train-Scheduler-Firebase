@@ -20,9 +20,6 @@
 	var firstTrainTime = "";
 	var frequency = 0;
 	var currentTime = moment();
-	
-
-
 	// current time
 	var datetime = null,
 			date = null;
@@ -32,15 +29,11 @@
   	datetime.html(date.format('dddd, MMMM Do YYYY, h:mm:ss a'));
 	};
 
-
-
 	$(document).ready(function(){
   	datetime = $('#current-status')
   	update();
   	setInterval(update, 1000);
 	
-
-
 	// Capturing Button Click
 	$("#submitBtn").on("click", function() {
       
@@ -90,12 +83,7 @@
     // console.log("#####Next Train" + nextTrain);
     var nextArrival = moment(nextTrain).format("hh:mm a");
        
-    
-
   // appending to change html table
-  
-
-
   $("#new-train").append("<tr><td>" + snapshot.val().trainName + "</td>" +
     "<td>" + snapshot.val().destination + "</td>" + 
     "<td>" + snapshot.val().firstTrainTime + "</td>" +
@@ -103,8 +91,6 @@
     "<td>" + nextArrival + "</td>" +
     "<td>" + minutesAway + " mins until arrival" + "</td>" +
    	"</td></tr>");
-
-  		
 
 	  // Handle the errors if any
 	  }, function(errorObject) {
