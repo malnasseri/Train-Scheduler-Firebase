@@ -52,7 +52,24 @@ i {
 	}
 
 	}
+@media screen and (min-width: 667px) {
+	.jumbotron h1{
+		text-align: center;
+		font-size: 30px;
+		margin-bottom: -10px;
+	}
+	img {
+		margin-top: -20px;
+		margin-left: -10px;
+		width: 630px;
+		height: 500px;
 
+	}
+	.panel {
+		font-size: 80%;
+	}
+
+	}
 
 
 
