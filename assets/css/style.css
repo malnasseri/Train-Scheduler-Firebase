@@ -26,6 +26,7 @@ i {
 }
 .current {
 	text-align: center;
+	
 }
 	.panel-default>.panel-heading {
 		background:#dbdcdd;
@@ -38,6 +39,7 @@ i {
 		background-color:#44146f !important ;
 		width: 100%;
 		font-size: 18px !important;
+		color: white ;
 	}
 	button:hover {
 		background-color:#a6a5b7 !important ;
@@ -51,6 +53,19 @@ i {
 		text-align: center;
 		font-size: 26px;
 		margin-bottom: 0px;
+
+	}
+
+	td {
+					text-align: center;
+					font: 600 16px "Lato","Open Sans","Helvetica Neue",Arial,sans-serif;
+	}
+
+	th {
+		font-weight: 900;
+			text-align: center;
+			font-size: 18px;
+			font-family: "Lato","Open Sans","Helvetica Neue",Arial,sans-serif;
 
 	}
 	.jumbotron h2{
