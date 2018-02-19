@@ -106,24 +106,7 @@ button:focus {outline:0;}
 	margin-bottom: 20px;
 }
 
-	/*td {
-					text-align: center;
-					font: 600 15px "Lato","Open Sans","Helvetica Neue",Arial,sans-serif;
-	}*/
-
-	/*th {
-		font-weight: 900;
-			text-align: center;
-			font-size: 16px;
-			font-family: "Lato","Open Sans","Helvetica Neue",Arial,sans-serif;
-
-	}*/
-	/*.jumbotron h2{
-		text-align: center;
-		font-size: 24px;
-		
-
-	}*/
+	
 	img {
 		
 		width: 120px;
@@ -131,31 +114,32 @@ button:focus {outline:0;}
 margin-top: -15px;
 	margin-left: 10px;
 	}
+	.panel {
+		font-size: 85%;
+	}
+
+	}
+@media screen and (min-width: 667px) {
+	.panel {
+		font-size: 100%;
+	}
+	.jumbotron h1{
+	
+		margin-top: 10px;
+	}
+	img {
+		margin-top: -25px;
+		
+		
+
+	}
 	/*.panel {
-		font-size: 65%;
+		font-size: 80%;
 	}*/
 
 	}
-/*@media screen and (min-width: 667px) {
-	.jumbotron h1{
-		text-align: center;
-		font-size: 30px;
-		margin-bottom: 0px;
-	}
-	img {
-		margin-top: -20px;
-		margin-left: -10px;
-		width: 630px;
-		height: 500px;
 
-	}
-	.panel {
-		font-size: 80%;
-	}
-
-	}
-
-@media screen and (min-width: 768px) {
+/*@media screen and (min-width: 768px) {
 	.jumbotron h1{
 		
 		font-size: 40px;
