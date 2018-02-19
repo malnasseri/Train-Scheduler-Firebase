@@ -1,92 +1,142 @@
 body {
-	background-color: #a6a5b7;
+	background: url("../images/background.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /*text-align: center;*/
 	font-family: 'Francois One', sans-serif;
 }
 
-i {
-	margin-right: 5px;
-}
+
 #time {
 	text-align: center;
+	color: #44146f;
+	margin-top: 5px;
 }
-#date {
-	text-align: center;
+.jumbotron h1 {
+	
+	margin:0 auto;
+	margin-right: 80px;
+	color: white;
+}
+img {
+	/*float: left;*/
+	border-radius: 18%;
+	float: left;
+	margin-top: -45px;
+	margin-left: -56px;
+	border: solid white 5px;
 }
 .jumbotron {
-	/*margin-top: 15px;*/
-	/*text-align: center;*/
-	background-color: #9c9c9c;
-	color: #44146f;
-	
-	/*background-image: url("../images/headerBackground.jpg");*/
-	/*background-size: contain;
-	background-size:cover cover;                     
-    background-repeat: no-repeat;*/
-    
+	background: none !important;
+	text-align: center;
+	margin-bottom: 60px;
 }
 .current {
 	text-align: center;
-	
+
 }
 	.panel-default>.panel-heading {
 		background:#dbdcdd;
 
 	}
-	.panel-default>.panel-body {
+	.panel {
 		background:#f4f5f6;
+		margin-bottom: 50px;
 	}
-	button {
+	.btn {
+		background-color:#44146f !important ;
+	font-size: 15px !important;
+		color: white ;
+		padding: 2px 5px;
+		margin-top: -1px;
+	}
+	.btn:hover {
+		background-color:#a6a5b7 !important ;
+		
+		color: #44146f !important;
+	}
+	#sch-h3, #date {
+		margin-top: 5px;
+		text-align: center; 
+	}
+	 #date {
+	 text-align: center; 
+	 }
+	.help-block {
+		color:#f4f5f6;
+		padding: 5px;
+		text-align: center;
+		border-radius: 6px;
+	}
+	.panelHeading {
+		margin-bottom: -20px;
+		font-size: 20px;
+		text-align: center;
+	}
+	.bg-danger {
+		color: black;
+	}
+	.main-btns {
 		background-color:#44146f !important ;
 		width: 100%;
+		margin-top: 8px;
 		font-size: 18px !important;
 		color: white ;
+		padding: 5px 0;
+		border-radius: 6px !important;
 	}
-	button:hover {
+	.main-btns:hover {
 		background-color:#a6a5b7 !important ;
 		width: 100%;
 		color: #44146f !important;
 	}
-.jumbotron h1{color: black}
+/*.jumbotron h1{color: black}*/
+button:focus {outline:0;}
+.btn:focus {outline:0 !important;}
+
 
 @media screen and (min-width: 370px) {
 	.jumbotron h1{
-		text-align: center;
-		font-size: 26px;
-		margin-bottom: 0px;
+		margin-right: -10px;
 
 	}
+	.jumbotron {
+	margin-bottom: 20px;
+}
 
-	td {
+	/*td {
 					text-align: center;
-					font: 600 16px "Lato","Open Sans","Helvetica Neue",Arial,sans-serif;
-	}
+					font: 600 15px "Lato","Open Sans","Helvetica Neue",Arial,sans-serif;
+	}*/
 
-	th {
+	/*th {
 		font-weight: 900;
 			text-align: center;
-			font-size: 18px;
+			font-size: 16px;
 			font-family: "Lato","Open Sans","Helvetica Neue",Arial,sans-serif;
 
-	}
-	.jumbotron h2{
+	}*/
+	/*.jumbotron h2{
 		text-align: center;
 		font-size: 24px;
 		
 
-	}
+	}*/
 	img {
-		margin-top: -20px;
-		margin-left: -10px;
-		width: 330px;
-		height: 230px;
-
+		
+		width: 120px;
+		height: 100px;
+margin-top: -15px;
+	margin-left: 10px;
 	}
-	.panel {
+	/*.panel {
 		font-size: 65%;
-	}
+	}*/
 
 	}
-@media screen and (min-width: 667px) {
+/*@media screen and (min-width: 667px) {
 	.jumbotron h1{
 		text-align: center;
 		font-size: 30px;
@@ -155,3 +205,4 @@ i {
 
 
 
+*/
