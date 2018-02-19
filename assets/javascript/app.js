@@ -13,7 +13,7 @@
   var database = firebase.database();
 var data;
 function t() {
-    document.getElementById('time').innerHTML = moment().format('dddd hh:mm:ss a');
+    document.getElementById('time').innerHTML = moment().format('ddd hh:mm:ss a');
 }
 
 t();
